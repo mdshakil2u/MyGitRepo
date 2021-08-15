@@ -11,4 +11,4 @@ before_install:
 cache: npm
 
 script:
- - "travis_wait 20 sleep 1800 &" docker run myapp1 npm run test -- --coverage
+ - travis_wait 20 sleep 1800 docker run myapp1 npm run test -- --coverage
