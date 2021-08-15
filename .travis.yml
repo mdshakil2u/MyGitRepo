@@ -7,3 +7,4 @@ before_install:
  
 script:
  - docker run shakil/myapp npm run test -- --coverage
+ - travis_wait 20
