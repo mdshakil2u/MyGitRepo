@@ -6,4 +6,4 @@ before_install:
  - docker build -t shakil/myapp -f Dockerfile.dev .
  
 script:
- - dcoker run shakil/myapp npm run test -- --coverage
+ - docker run shakil/myapp npm run test -- --coverage
